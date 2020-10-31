@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.msm8953 \
-    libmm-qcamera \
+    libmm-qcamera
 
 # Configstore
 PRODUCT_PACKAGES += \
@@ -315,6 +315,10 @@ PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
     RcsService
+
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \

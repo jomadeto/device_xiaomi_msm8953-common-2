@@ -497,4 +497,7 @@
           specified name exists on the device, autofill will be disabled by default.
     -->
     <string name="config_persistentDataPackageName" translatable="false">com.google.android.gms</string>
+    
+    <!-- Smart charging -->
+    <bool name="config_smartChargingAvailable">true</bool>
 </resources>
